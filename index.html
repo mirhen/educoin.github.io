@@ -1,124 +1,98 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-<body class="page-loaded vsc-initialized">
-        <noscript>
-            &amp;lt;div class="noscriptmsg"&amp;gt;This site works better with JavaScript. Please enable it in your browser.&amp;lt;/div&amp;gt;
-        </noscript>
-        <main>
+<head>
+	<title>Educoin</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:400,500" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="common-css/jquery.classycountdown.css" />
+		
+	<link href="01-comming-soon/css/styles.css" rel="stylesheet">
+	
+	<link href="01-comming-soon/css/responsive.css" rel="stylesheet">
+	
+</head>
+<body>
+	
+	<div class="main-area">
+		<div class="container full-height position-static">
+			
+			<section class="left-section full-height">
+		
+				<a class="logo" href="http://www.inventxr.com">Educoin</a>
+				
+				<div class="display-table">
+					<div class="display-table-cell">
+						<div class="main-content">
+							<h1 class="title">Revolutionizing the way we award learning on the Ethereum blockchain.</h1>
+							<!-- <p>Our website is currently undergoing scheduled maintenance. -->
+								<!-- We Should be back shortly. Thank you for your patience.</p> -->
 
-            <!--
-            >>================================================================================>
-            Main UI Components
-            >>================================================================================>
-            -->
-
-            <div id="loading"></div>
-            
-            <h1 id="site-logo">
-                <span>Educoin</span>
-            </h1>
-
-            <button id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
-            <!--
-            >>================================================================================>
-            Primary Content
-            >>================================================================================>
-            -->
-
-            <section id="primary">
-                <div class="container">
-
-                    <!--Boilerplate-->
-
-                    <div class="boilerplate">
-                        <div class="container">
-                            <p>Revalutionizing the way we award learning on the Ethereum blockchain.</p>
-                            <div style="display: inline-flex;">
-                                <a style="background-color: #68dacd; color: #1248a2; margin-left: 0px;" class="" href="https://portal.b0x.network/">
-                                    <div> 
-                                        <div class=""><span class="">Get a wallet</span></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Form-->
-
-                    <div class="form">
-                        <form name="subscribe_form" method="post" onkeypress="return event.keyCode != 13;" action="https://network.us1.list-manage.com/subscribe/post?u=abb06950e3a65452b931c8069&amp;id=2878daa66b" novalidate="novalidate">
-                            <label for="email">Join Our Mailing List</label>
-                            <div class="control-group">
-                                <input type="email" name="EMAIL" id="email" placeholder="Email">
-                                <button class="submit" type="button" name="btnSubmit" id="btnSubmit" style="display: block; cursor: pointer;" onclick="javascript:document.forms['subscribe_form'].submit();">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26.2" height="12.4" viewBox="0 0 26.2 12.4">
+							<div class="email-input-area">
+								<form method="post">
+									<input class="email-input" name="email" type="text" placeholder="Email"/>
+									<button class="submit-btn" name="submit" type="submit"><b></b><svg xmlns="http://www.w3.org/2000/svg" width="26.2" height="12.4" viewBox="0 0 26.2 12.4" fill="rgb(41, 121, 255)">
                                         <path class="st0" d="M26.2 6.2v-.5l-5.3-5.6c-.2-.2-.6-.3-.9 0s-.3.6 0 .9l4.3 4.5h-23.7c-.3.1-.6.3-.6.7s.3.6.6.6h23.5l-4.3 4.5c-.2.2-.2.6 0 .9.1.1.3.2.4.2.2 0 .3-.1.5-.2l5.3-5.6v-.4c.2.1.2 0 .2 0z"></path>
-                                    </svg>
-                                </button>
-                                <script>document.getElementById('btnSubmit').style.display = 'block';</script>
-                                <noscript>
-                                    &amp;lt;button class="submit" type="submit" name="submit" style="cursor: pointer;"&amp;gt;
-                                        &amp;lt;svg xmlns="http://www.w3.org/2000/svg" width="26.2" height="12.4" viewBox="0 0 26.2 12.4"&amp;gt;
-                                            &amp;lt;path class="st0" d="M26.2 6.2v-.5l-5.3-5.6c-.2-.2-.6-.3-.9 0s-.3.6 0 .9l4.3 4.5h-23.7c-.3.1-.6.3-.6.7s.3.6.6.6h23.5l-4.3 4.5c-.2.2-.2.6 0 .9.1.1.3.2.4.2.2 0 .3-.1.5-.2l5.3-5.6v-.4c.2.1.2 0 .2 0z" /&amp;gt;
-                                        &amp;lt;/svg&amp;gt;
-                                    &amp;lt;/button&amp;gt;
-                                </noscript>
-                            </div>
-                        </form>
-                    </div>
-
-                    <!--Social-->
-
-                    <nav class="social">
-                        <ul>
-                            <li><a href="https://b0x.network/pdfs/b0x_white_paper.pdf">White Paper</a></li>
-                            <li><a href="https://t.me/b0xNet">Telegram</a></li>
-                            <li><a href="https://twitter.com/b0xNet">Twitter</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </section>
-
-            <!--
-            >>================================================================================>
-            Mobile Boilerplate
-            >>================================================================================>
-            -->
-
-            <section id="mobile-boilerplate">
-                <div class="container">
-                    <p>Revalutionizing the way we award learning on the Ethereum blockchain.</p>
-                    <div style="display: inline-flex;">
-                        <a class="white_paper" href="https://github.com/b0xNetwork">
-                            <span class="white_paper_text">GitHub</span>
-                        </a>
-                        <a style="background-color: #dcffff; color: #2979ff; margin-left: 15px;" class="" href="https://medium.com/@b0xNet">
-                            <span class="">Medium</span>
-                        </a>
-                        <a style="background-color: #68dacd; color: #1248a2; margin-left: 15px;" class="" href="https://portal.b0x.network/">
-                            <span class="">Portal DApp</span>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-           
-        
-        <script src="./js/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.0.min.js"><\/script>')</script><script src="js/vendor/jquery-3.2.0.min.js"></script>
-        <script src="./js/scripts.min.js"></script>
-    
-
+                                    </svg></button>
+								</form>
+							</div><!-- email-input-area -->
+							
+							<p class="post-desc"></p>
+						</div><!-- main-content -->
+					</div><!-- display-table-cell -->
+				</div><!-- display-table -->
+				
+				<ul class="footer-icons">
+					<li>Stay in touch : </li>
+					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+					<li><a href="#"><i class="ion-social-pinterest"></i></a></li>
+				</ul>
+		
+			</section><!-- left-section -->
+		
+			<section class="right-section">
+			
+				<div class="display-table center-text">
+					<div class="display-table-cell">
+						<a class="logo" href="#"><img src="images/coin.png" alt="Logo"></a>	
+					</div><!-- display-table-cell -->
+				</div><!-- display-table -->
+				
+			</section><!-- right-section -->
+		
+		</div><!-- container -->
+	</div><!-- main-area -->
+	
+	<!-- SCIPTS -->
+	
+	<script src="common-js/jquery-3.1.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/jquery.classycountdown.js"></script>
+	
+	<script src="common-js/jquery.knob.js"></script>
+	
+	<script src="common-js/jquery.throttle.js"></script>
+	
+	<script src="common-js/scripts.js"></script>
+	
 </body>
 </html>
